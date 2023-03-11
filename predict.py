@@ -4,7 +4,7 @@ from PIL import Image
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier 
 
-df=pd.read_csv('C:/Users/sgvka/OneDrive/Desktop/Projects/ML/Water quality/water_potability.csv')
+df=pd.read_csv('../water_potability.csv')
 for i in ['ph','Trihalomethanes','Sulfate']:
     missing1 = df.query('Potability == 0')[i][df[i].isna()].index
     df.loc[missing1,i] = df.query('Potability == 0')[i][df[i].notna()].mean()
@@ -44,8 +44,8 @@ def predict_water_quality(ph, Hardness, Solids, Chloramines, Sulfate, Conductivi
                     'Organic_carbon':[Organic_Carbon],'Trihalomethanes':[Trihalomethanes],'Turbidity':[Turbidity]})
         X_new=data[['ph','Hardness','Solids','Chloramines','Sulfate','Conductivity','Organic_carbon','Trihalomethanes','Turbidity']]
         prediction = model.predict(X_new)
-        potable_water = Image.open("C:/Users/sgvka/OneDrive/Desktop/Projects/ML/Water quality/Potable water.jpg")
-        non_potable_water = Image.open("C:/Users/sgvka/OneDrive/Desktop/Projects/ML/Water quality/Non potable water.jpg")
+        potable_water = Image.open("../Potable water.jpg")
+        non_potable_water = Image.open("../Non potable water.jpg")
     
         if prediction== 1:
             image = potable_water
