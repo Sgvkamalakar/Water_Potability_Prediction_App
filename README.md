@@ -1,5 +1,8 @@
 ## Water Potability Prediction App using Gradio
+#### Main Motto off this project:
+The main motto of the Water Potability Prediction App is to provide a simple and easy-to-use tool for predicting the potability of water based on various water quality parameters. The app is intended to help users quickly determine whether the water they are using or considering using is safe to drink or not. This information can be critical for ensuring the health and safety of individuals and communities. The app uses a machine learning model to analyze the given parameters and predict the potability of the water. By providing a user-friendly interface and reliable predictions, the Water Potability Prediction App aims to improve access to safe and clean drinking water for all.
 
+#### Introduction:
 The main objective of this project is to provide a simple and easy-to-use web application that can predict the potability of water by analyzing the given parameters. The web application is built using Gradio, a Python library that helps to quickly create customizable UI components for machine learning models. The application allows the user to input the various water parameters and get an immediate prediction of the water potability.
 
 This repository contains the code for both the machine learning model and the Gradio web application. 
