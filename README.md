@@ -19,11 +19,20 @@ This documentation note is intended to provide a step-by-step guide for using th
 * Install the required libraries using pip or conda
 * Run the Gradio app using the command 'py predict.py'
 * Access the app using a web browser and the provided URL
+![image](https://user-images.githubusercontent.com/103712713/224483390-398fd33e-6628-4b3a-ae0c-4544e17cd9d9.png)
 
 #### Using the App:
-Once the app is launched in the web browser, input the various water parameters in the provided fields.
-Click on the "Submit" button to get the water potability prediction.
-The prediction will be displayed in the "Result" field.
+* Once the app is launched in the web browser, input the various water parameters in the provided fields.
+
+![image](https://user-images.githubusercontent.com/103712713/224483428-b65987c2-f96b-40dc-a225-9a4a1f01d0ff.png)
+
+* Click on the "Submit" button to get the water potability prediction.
+* The prediction will be displayed in the "Result" field.
+![image](https://user-images.githubusercontent.com/103712713/224483450-0ae3cfdd-ffe3-4b23-a773-fb230a6d0745.png)
+
+* To test the results of the Water Potability Prediction App using Gradio using your own inputs, simply input your own values for the water parameters in the provided fields and click on the "Submit" button.
+
+![image](https://user-images.githubusercontent.com/103712713/224483577-14de3725-327b-4db8-97df-eeb7ef51f97b.png)
 
 #### Understanding the Model:
 The model is built using Python and Scikit-learn libraries. It uses a Random Forest Classifier algorithm to predict the potability of water based on the given parameters. The dataset used for building the model is available in the repository as a CSV file. The data is preprocessed, cleaned, and transformed before being used to train the machine learning model.
