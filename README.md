@@ -34,6 +34,8 @@ This documentation note is intended to provide a step-by-step guide for using th
 
 ![image](https://user-images.githubusercontent.com/103712713/224483577-14de3725-327b-4db8-97df-eeb7ef51f97b.png)
 
+* It is important to note that the accuracy of the prediction may vary depending on the quality of your inputs. Therefore, it is recommended to use accurate and reliable data when testing the results of the app.
+
 #### Understanding the Model:
 The model is built using Python and Scikit-learn libraries. It uses a Random Forest Classifier algorithm to predict the potability of water based on the given parameters. The dataset used for building the model is available in the repository as a CSV file. The data is preprocessed, cleaned, and transformed before being used to train the machine learning model.
 
