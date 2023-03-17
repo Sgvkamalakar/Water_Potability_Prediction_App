@@ -1,4 +1,7 @@
 ## Water Potability Prediction App using Gradio
+
+![Aqua Predict](https://user-images.githubusercontent.com/103712713/225812315-33e8ce19-d680-4039-ad8b-1343b502b91b.png)
+
 #### Main Motto off this project:
 The main motto of the Water Potability Prediction App is to provide a simple and easy-to-use tool for predicting the potability of water based on various water quality parameters. The app is intended to help users quickly determine whether the water they are using or considering using is safe to drink or not. This information can be critical for ensuring the health and safety of individuals and communities. The app uses a machine learning model to analyze the given parameters and predict the potability of the water. By providing a user-friendly interface and reliable predictions, the Water Potability Prediction App aims to improve access to safe and clean drinking water for all.
 
