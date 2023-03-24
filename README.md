@@ -1,4 +1,6 @@
-## Water Potability Prediction App using Gradio
+## Water Potability Prediction App using Gradio 
+
+Application is hosted at https://sgvkamalakar-water-potability-prediciton-app.hf.space/
 
 ![Aqua Predict](https://user-images.githubusercontent.com/103712713/225812315-33e8ce19-d680-4039-ad8b-1343b502b91b.png)
 
