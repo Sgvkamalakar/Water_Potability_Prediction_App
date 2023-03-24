@@ -23,7 +23,7 @@ This documentation note is intended to provide a step-by-step guide for using th
 * Required Python Libraries: pandas, numpy, sklearn, gradio
 
 #### Getting Started:
-* Clone the GitHub repository
+* Clone the GitHub repository https://github.com/Sgvkamalakar/Water_Potability_Prediction_App.git
 * Install the required libraries using pip or conda
 * Run the Gradio app using the command 'py predict.py'
 * Access the app using a web browser and the provided URL
